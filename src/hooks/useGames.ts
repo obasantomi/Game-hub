@@ -50,7 +50,7 @@ const useGames = () => {
   return {
     games,
     error,
-    isLoading
+    isLoading,
   };
 };
 

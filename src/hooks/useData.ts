@@ -32,7 +32,7 @@ const useData = <T>(endpoint: string) => {
       });
 
     return () => controller.abort();
-  });
+  }, []);
 
   return {
     data,

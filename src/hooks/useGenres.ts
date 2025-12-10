@@ -17,7 +17,7 @@ const useGenres = () => {
     queryFn: genreService.getAll,
     staleTime: 1000 * 24 * 60 * 60, // 24h
     keepPreviousData: true,
-    initialData: { count: genres.length, results: genres },
+    initialData: { count: genres.length, next: "", results: genres },
   });
 };
 

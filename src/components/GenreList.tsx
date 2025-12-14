@@ -7,7 +7,7 @@ import {
   ListItem,
   Spinner,
 } from "@chakra-ui/react";
-import useGenres, { type Genre } from "../hooks/useGenres";
+import useGenres from "../hooks/useGenres";
 import getCroppedImageUrl from "../services/images-url";
 import useGameQueryStore from "../services/store";
 

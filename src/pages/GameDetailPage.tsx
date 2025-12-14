@@ -1,9 +1,7 @@
-
-
 const GameDetailPage = () => {
-  return (
-    <div>GameDetailPage</div>
-  )
-}
+  throw new Error("Something occured");
 
-export default GameDetailPage
+  return <div>GameDetailPage</div>;
+};
+
+export default GameDetailPage;

@@ -1,4 +1,6 @@
+import type { Genre } from "../hooks/Genre";
 import type { Platform } from "../hooks/Platform";
+import type { Publisher } from "./Publisher";
 
 export interface Game {
   id: number;
@@ -9,4 +11,6 @@ export interface Game {
   rating_top: number;
   slug: string;
   description_raw: string;
+  genres: Genre[];
+  publishers: Publisher[];
 }
